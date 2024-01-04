@@ -24,6 +24,10 @@ import {
   tripguide,
   threejs,
   logo,
+  auto,
+  plant,
+  furniture,
+  tech,
 } from "../assets";
 
 export const navLinks = [
@@ -183,9 +187,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Car Accessories",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Recently, I crafted a dynamic e-commerce platform for a client that pride themselves as the premier destination for premium car accessories. I prioritized a user-friendly design, ensuring a seamless browsing experience for customers exploring sleek interior upgrades and cutting-edge car gadgets. This stylish and functional  design reflects the brand elevates the shopping experience.",
     tags: [
       {
         name: "react",
@@ -200,13 +204,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: auto,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Plant Store",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Infused with user-friendly navigation this indoor plant store design, offers users an immersive experience. With a focus on aesthetics and functionality, the website showcases a diverse collection of lush greenery. From sleek succulents to elegant ferns, this store ensures a seamless shopping experience for plant enthusiasts.",
     tags: [
       {
         name: "react",
@@ -221,13 +225,35 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: plant,
+    source_code_link: "https://github.com/",
+  },
+
+  {
+    name: "Tech Store",
+    description:
+      "This store boasts a sleek design and seamless functionality, providing a user-friendly experience for tech enthusiasts. From the latest gadgets to innovative accessories, this website ensured a modern and dynamic online shopping journey.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: plant,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Furniture Store",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Melding sleek design with seamless functionality, the site offers an immersive shopping experience. From chic furniture to stylish decor, this platform ensures a user-friendly interface for those seeking to elevate their living spaces.",
     tags: [
       {
         name: "nextjs",
@@ -242,7 +268,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: furniture,
     source_code_link: "https://github.com/",
   },
 ];
