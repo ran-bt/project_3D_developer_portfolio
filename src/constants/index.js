@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  logo,
 } from "../assets";
 
 export const navLinks = [
@@ -108,63 +109,47 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "E-commerce Digital Marketer, Freelance",
+    company_name: "Freelancer",
+    icon: logo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Aug 2019 - Feb 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed tailored marketing strategies to improve customer acquisition, resulting in up to 40% increase in website traffic for multiple clients.",
+      "Built and maintained Shopify e-commerce stores, including website customization and basic coding.",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
+      "Managed web content and developed digital media strategies for clients",
     ],
   },
+
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
+    title: "Technical Support",
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Mar 2021 - Jul 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Resolved technical issues for Shopify merchants by providing step-by-step guidance, resulting in high customer satisfaction rates.",
+      "Collaborated with internal and third-party developers to identify and resolve status errors and bugs, improving overall site performance.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop responsive and mobile-friendly websites to enhance user experience and drive engagement.",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Freelancer",
+    icon: logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Sep 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Use technical troubleshooting and problem-solving skills to quickly and efficiently resolve technical issues for clients.",
+      "Deploy and configure websites on popular CMS platforms including Wordpress and Shopify, ensuring high-quality website performance and functionality.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop responsive and mobile-friendly websites to enhance user experience and drive engagement.",
     ],
   },
 ];
